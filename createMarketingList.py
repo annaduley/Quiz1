@@ -46,12 +46,12 @@ newdict={}
 for line in csvfile:
     name = line[1] + ' ' + line[2]
     outfile.write(name)
-    outfile.write(', ')
+    outfile.write(',')
 
     #print(newdict)
     mydict[name]= {'email': line[4], 'phone':line[5]}
     outfile.write(line[4])
-    outfile.write(', ')
+    outfile.write(',')
     outfile.write(line[5])
     outfile.write('\n')
 
