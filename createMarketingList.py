@@ -31,7 +31,7 @@ next(csvfile) #this skips the first line
 
 
 outfile = open('marketinglistFINAL.csv','w')
-outfile.write('Name,Email,Phone')
+outfile.write('Name,Email,Phone\n')
 
 
 
